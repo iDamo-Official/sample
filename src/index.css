@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  li {
+    @apply p-0.5
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    @apply transition-all;
+  }
+}
